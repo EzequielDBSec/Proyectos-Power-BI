@@ -1,1 +1,5 @@
+En este proyecto se me asignó la tarea de desarrollar un tablero que permitiera visualizar en un mapa las ubicaciones de los hospitales privados en México. Para ello, recibí una lista de hospitales privados en un archivo Excel titulado "Lista de Hospitales Privados.xlsx". Sin embargo, dicha lista no incluía la latitud ni la longitud de los hospitales, información esencial para la geolocalización.
 
+Ante esta necesidad, se creó un código en Python, denominado "Hospitales_ubicacion.py", para obtener las coordenadas de cada hospital. Al ejecutar este código, se generó un archivo Excel llamado "Hospitales y su ubicacion.xlsx", que ya incluye las longitudes y latitudes correspondientes.
+
+Con esta información, realizamos un proceso de transformación de datos y creamos un nuevo archivo Excel titulado "Hospitales privados y su ubicacion.xlsx". Finalmente, cargamos este documento en Power BI y generamos un tablero interactivo llamado "Mapeo hospitales y su ubicacion.pbix", el cual muestra la geolocalización de los hospitales privados en México.
